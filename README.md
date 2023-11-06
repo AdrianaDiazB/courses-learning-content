@@ -1,2 +1,2 @@
-# prowess
-Proyecto de Cursos Mooc
+# Copy Prowess Mooc
+Copy of Mooc Platform
