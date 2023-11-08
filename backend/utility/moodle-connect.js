@@ -3,9 +3,9 @@ import dotenv from "dotenv";
 dotenv.config();
 
 // const wwwroot = process.env.WWWROOT;
-const wwwroot = "pruebamocc.prowessec.com";
+const wwwroot = "https://cursosmocc.prowessec.com";
 // const token = process.env.TOKEN;
-const token = "be3e29b4d24ca87f4737756698ac5fc4";
+const token = "c7a1fdeb93592eacc0480e164e52fe3c";
 
 if (!wwwroot || !token) {
   throw new Error("Missing Moodle credentials");

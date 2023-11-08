@@ -41,3 +41,18 @@ export const getUser = async (req, res) => {
     return res.status(400).json(error);
   }
 };
+
+export const getUserList = async (req, res) => {
+  try {
+    const client = await moodleConnect;
+    const userList = await client.call({
+      wsfunction: "core_user_view_user_list",
+      args: {
+        courseid: 0,
+      },
+    });
+    return res.status(200).json(userList);
+  } catch (error) {
+    return res.status(400).json(error);
+  }
+};
