@@ -116,7 +116,7 @@ function RegistroPage() {
         <div className="col-12 col-lg-6 image-form w-lg-100">
           <img
             className="img-fluid"
-            src="https://res.cloudinary.com/dena7lqj3/image/upload/v1670622658/modulomocc/home/inscrip.jpg"
+            src="https://miro.medium.com/v2/resize:fit:1400/1*1Xm4NjD-yZ0NF8rOhw1dsw.gif"
             alt="inscripcion"
           />
         </div>
