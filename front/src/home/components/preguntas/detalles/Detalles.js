@@ -51,5 +51,5 @@ export const Detalles = () => {
     </div>
   );
 };
-
+/**Modificado */
 export default Detalles;
