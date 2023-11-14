@@ -35,19 +35,19 @@ export const Jumbotron = () => {
               <br />
               Sigue estos pasos:
                 <br />
-                1. Encuentra el Enlace de Registro: Visita nuestra página de inicio y busca el enlace de registro. Este suele estar ubicado en la esquina superior derecha bajo la sección "Crear cuenta".
+                <strong> 1. Enlace de Registro:</strong> Visita nuestra página de inicio y busca el enlace de registro. Este suele estar ubicado en la esquina superior derecha bajo la sección "Crear cuenta".
                 <br />
-                2. Completa la Información: Llena los campos obligatorios con tu información personal:
+                <strong> 2. Completa la Información:</strong> Llena los campos obligatorios con tu información personal:
                 <br />
-                - Nombre y Apellido: Ingresa tu nombre completo.
+                - <strong>Nombre y Apellido: </strong>Ingresa tu nombre completo.
                 <br />
-                - Nombre de Usuario: Elige un nombre de usuario único.
+                - <strong>Nombre de Usuario: </strong>Elige un nombre de usuario único.
                 <br />
-                - Correo Electrónico: Proporciona una dirección de correo electrónico válida.
+                - <strong>Correo Electrónico: </strong>Proporciona una dirección de correo electrónico válida.
                 <br />
-                - Cédula: Ingresa tu número de cédula.
+                - <strong>Cédula: </strong>Ingresa tu número de cédula.
                 <br />
-                - Contraseña Segura: Crea una contraseña segura siguiendo estas pautas...
+                - <strong>Contraseña Segura: </strong>Crea una contraseña segura siguiendo estas pautas...
                
                 <br />
                 ¡Bienvenido a Progress Cursos MOOC!
@@ -85,13 +85,19 @@ export const Jumbotron = () => {
             </AccordionSummary>
             <AccordionDetails>
               <Typography>
-                ¿Es seguro comprar en la Tienda Virtual?
+              Cambiar tu contraseña en Progress Cursos MOOC es un proceso sencillo. Sigue estos pasos para actualizar tu contraseña:
                 <br />
-                ¿Cómo puedo bloquear mi cuenta de usuario?
+                <strong>1. Inicia Sesión:</strong> Accede a tu cuenta en Progress Cursos MOOC utilizando tu nombre de usuario y contraseña actual.
                 <br />
-                ¿Cómo puedo cambiar mi contraseña?
+                <strong>2. Accede a la Configuración de la Cuenta:</strong> Una vez que hayas iniciado sesión, busca la opción de "Configuración de la Cuenta" en tu panel de usuario. Este enlace generalmente se encuentra en la esquina superior derecha de la página.
                 <br />
-                ¿Cómo puedo recuperar mi contraseña?
+                <strong>3. Selecciona "Cambiar Contraseña":</strong> Dentro de la sección de configuración de la cuenta, busca la opción que indica "Cambiar Contraseña" o algo similar.
+                <br />
+                <strong> 4.Ingresa la Nueva Contraseña:</strong> Se te pedirá que ingreses tu contraseña actual para verificar tu identidad. Después, proporciona tu nueva contraseña. Recuerda seguir nuestras pautas de seguridad, que incluyen al menos una letra mayúscula, una letra minúscula, un carácter especial y un mínimo de 8 caracteres.
+                <br />
+                <strong>5. Confirma la Nueva Contraseña:</strong> Vuelve a ingresar la nueva contraseña para confirmar que esté escrita correctamente.
+                <br />
+                <strong>6. Guarda los Cambios:</strong> Finalmente, guarda los cambios para aplicar tu nueva contraseña.
               </Typography>
             </AccordionDetails>
           </Accordion>
