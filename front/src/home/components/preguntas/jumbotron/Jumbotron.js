@@ -26,13 +26,34 @@ export const Jumbotron = () => {
         <div className="faq-section">
           <Accordion>
             <AccordionSummary expandIcon={<ExpandMoreIcon />} aria-controls="registro-suscripcion-content" id="registro-suscripcion-header">
-              <Typography variant="h5">REGISTRO-SUSCRIPCIÓN</Typography>
+              <Typography variant="h5">¿Cómo me registro en Prowess?</Typography>
             </AccordionSummary>
             <AccordionDetails>
               <Typography>
-                ¿Cómo me registro en Prowess?
+               
+              <strong>¡Registrarse en Progress Cursos MOOC es rápido y fácil!</strong> 
+              <br />
+              Sigue estos pasos:
                 <br />
-                ¿Cómo puedo actualizar los datos de mi registro?
+                1. Encuentra el Enlace de Registro: Visita nuestra página de inicio y busca el enlace de registro. Este suele estar ubicado en la esquina superior derecha bajo la sección "Crear cuenta".
+                <br />
+                2. Completa la Información: Llena los campos obligatorios con tu información personal:
+                <br />
+                - Nombre y Apellido: Ingresa tu nombre completo.
+                <br />
+                - Nombre de Usuario: Elige un nombre de usuario único.
+                <br />
+                - Correo Electrónico: Proporciona una dirección de correo electrónico válida.
+                <br />
+                - Cédula: Ingresa tu número de cédula.
+                <br />
+                - Contraseña Segura: Crea una contraseña segura siguiendo estas pautas...
+               
+                <br />
+                ¡Bienvenido a Progress Cursos MOOC!
+                <br />
+                Si tienes alguna dificultad durante el proceso, no dudes en contactar a nuestro equipo de soporte en [dirección de correo electrónico de soporte] para obtener asistencia.
+
               </Typography>
             </AccordionDetails>
           </Accordion>
