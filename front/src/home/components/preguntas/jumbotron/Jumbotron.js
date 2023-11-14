@@ -60,20 +60,28 @@ export const Jumbotron = () => {
 
           <Accordion>
             <AccordionSummary expandIcon={<ExpandMoreIcon />} aria-controls="formas-pago-content" id="formas-pago-header">
-              <Typography variant="h5">FORMAS DE PAGO</Typography>
+              <Typography variant="h5">¿Cuáles son las formas de pago en Prowess?</Typography>
             </AccordionSummary>
             <AccordionDetails>
               <Typography>
-                ¿Cuáles son las formas de pago en la Tienda Virtual?
+                 En Progress Cursos, simplificamos el proceso de pago para que puedas comenzar tus cursos MOOC de manera rápida y sencilla.Actualmente, aceptamos pagos mediante tarjeta de crédito como única opción. 
+                 
+                 Aquí tienes los pasos para realizar tu pago:
                 <br />
-                ¿Recibiré una factura con mi compra?
+                <strong>Tarjeta de Crédito:</strong> Durante el proceso de pago, selecciona la opción de "Tarjeta de Crédito". Ingresa los detalles de tu tarjeta, incluyendo el número, la fecha de vencimiento y el código de seguridad.
+                <br />
+                Te aseguramos que todas las transacciones con tarjeta de crédito se realizan de forma segura, utilizando protocolos de cifrado avanzados para proteger tu información personal.
+                <br />
+                Si tienes alguna pregunta específica sobre el proceso de pago con tarjeta de crédito o experimentas algún problema durante la transacción, no dudes en ponerte en contacto con nuestro equipo de soporte.
+                <br />
+                <strong>¡Esperamos que disfrutes de tus cursos MOOC en Progress Cursos</strong>!
               </Typography>
             </AccordionDetails>
           </Accordion>
 
           <Accordion>
             <AccordionSummary expandIcon={<ExpandMoreIcon />} aria-controls="seguridad-content" id="seguridad-header">
-              <Typography variant="h5">SEGURIDAD</Typography>
+              <Typography variant="h5">¿Cómo puedo cambiar mi contraseña?</Typography>
             </AccordionSummary>
             <AccordionDetails>
               <Typography>
