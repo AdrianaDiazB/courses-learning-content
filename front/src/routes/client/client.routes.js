@@ -3,7 +3,7 @@ import { Route, Routes } from "react-router-dom";
 import { Navbar } from "../../home/components/navbar/Navbar";
 import { NavbarRedes } from "../../home/components/navbar/NavbarRedes";
 import { HomePage } from "../../home/pages/HomePage";
-import NosotrosPage from "../../home/pages/NosotrosPage";
+import NosotrosPage from "../../home/pages/AboutPage";
 import CursosPage from "../../home/pages/CursosPage";
 import CursoPage from "../../home/pages/CursoPage";
 import AyudosP from "../../home/pages/AyudaPage";
