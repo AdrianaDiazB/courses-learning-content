@@ -1,5 +1,7 @@
 import React from "react";
 import "./style.css";
+import images from "./images";
+
 export const Slider = () => {
   return (
     <div
@@ -8,13 +10,13 @@ export const Slider = () => {
       data-bs-ride="carousel">
       <div className="carousel-inner slider-img">
         <div className="carousel-item active" data-bs-interval="2000">
-          <img src="https://res.cloudinary.com/dena7lqj3/image/upload/v1670622629/modulomocc/home/sslider1_g0yrxk.jpg" className="d-block w-100" alt="..." />
+          <img src={images.img1} className="d-block w-100" alt="..." />
         </div>
         <div className="carousel-item" data-bs-interval="2000">
-          <img src="https://res.cloudinary.com/dena7lqj3/image/upload/v1670622604/modulomocc/home/slider2_zmjagj.jpg" className="d-block w-100" alt="..." />
+          <img src={images.img2} className="d-block w-100" alt="..." />
         </div>
         <div className="carousel-item" data-bs-interval="2000">
-          <img src="https://res.cloudinary.com/dena7lqj3/image/upload/v1670622613/modulomocc/home/slider3_r8azlx.jpg" className="d-block w-100" alt="..." />
+          <img src={images.img3} className="d-block w-100" alt="..." />
         </div>
       </div>
       <button
