@@ -1,5 +1,5 @@
 import React from "react";
-
+import images from "./images/images";
 import { Slider } from "../components/slider/Slider";
 import { Servicios } from "../components/inicio/Servicios";
 import "./style.css";
@@ -66,41 +66,7 @@ export const HomePage = () => {
       <div class="container mb-5">
         <Linea />
         <div class="row  card2 p-3  ">
-          <div class="col-12  text-center title-curso text-black">
-            <p>INFORMACIÓN DE NUESTROS CURSOS</p>
-          </div>
-
-          <div class="col-12  text-center  text-body titleC  text-black">
-            <p>PROWESS OFRECE CURSOS DE CAPACITACIÓN EN LAS SIGUENTES AREA. XD</p>
-          </div>
-
-          <div class="col-12 col-md-4">
-            <div>
-              <img
-                className="img-fluid img3 "
-                src="https://res.cloudinary.com/dena7lqj3/image/upload/v1670622553/modulomocc/home/9.png"
-                alt=""
-              />
-            </div>
-          </div>
-          <div class="col-12 col-md-4">
-            <div>
-              <img
-                className="img-fluid img3 "
-                src="https://res.cloudinary.com/dena7lqj3/image/upload/v1670622553/modulomocc/home/10.png"
-                alt=""
-              />
-            </div>
-          </div>
-          <div class="col-12 col-md-4">
-            <div>
-              <img
-                className="img-fluid img3 "
-                src="https://res.cloudinary.com/dena7lqj3/image/upload/v1670622553/modulomocc/home/11.png"
-                alt=""
-              />
-            </div>
-          </div>
+          <img src={images.img1} alt="" />
         </div>
       </div>
 
@@ -143,60 +109,11 @@ export const HomePage = () => {
             CERTIFICADOS DE CALIDAD
           </p>
           <div class="row card1 p-3 d-flex justify-content-center align-items-center mb-5">
-            <div class="col-12 col-lg-6 text-center text-white">
-              <div className="title-curso text-white ">
-                <h1>¿POR QUÉ ESTUDIAR CON NOSOSTROS?</h1>
-              </div>
-              <p className="text-white text-center titleC">
-                Te ofrecemos cursos con tutores capacitados, y certificados
-                avalados por la universidad de las fuerzas armadas "ESPE"
-              </p>
-            </div>
-
-            <div class="row col-12 col-lg-6 d-flex justify-content-center align-items-center">
-              <div class="col-12 col-md-6 p-1">
-                <div className="">
-                  <img
-                    className="img-fluid"
-                    src="https://res.cloudinary.com/dena7lqj3/image/upload/v1670622601/modulomocc/home/16.png"
-                    alt=""
-                  />
-                </div>
-              </div>
-
-              <div className="col-12 col-md-6 p-1">
-                <div className="">
-                  <img
-                    className="img-fluid "
-                    src="https://res.cloudinary.com/dena7lqj3/image/upload/v1670622565/modulomocc/home/15.png"
-                    alt=""
-                  />
-                </div>
-              </div>
-
-              <div className="col-12 col-md-6 p-1">
-                <div className="">
-                  <img
-                    className="img-fluid "
-                    src="https://res.cloudinary.com/dena7lqj3/image/upload/v1670622590/modulomocc/home/17.png"
-                    alt=""
-                  />
-                </div>
-              </div>
-
-              <div className="col-12 col-md-6 p-1">
-                <div className="">
-                  <img
-                    className="img-fluid"
-                    src="https://res.cloudinary.com/dena7lqj3/image/upload/v1670622553/modulomocc/home/11.png"
-                    alt=""
-                  />
-                </div>
-              </div>
+            <img src={images.img2} alt="" />
             </div>
           </div>
         </div>
-      </div>
+      
       <Footer />
     </>
   );
