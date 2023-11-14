@@ -38,47 +38,6 @@ export const Jumbotron = () => {
           </Accordion>
 
           <Accordion>
-            <AccordionSummary expandIcon={<ExpandMoreIcon />} aria-controls="pedido-en-linea-content" id="pedido-en-linea-header">
-              <Typography variant="h5">NUNCA HE PEDIDO EN LÍNEA</Typography>
-            </AccordionSummary>
-            <AccordionDetails>
-              <Typography>
-                ¿Es posible hacer una reserva por teléfono?
-              </Typography>
-            </AccordionDetails>
-          </Accordion>
-
-          <Accordion>
-            <AccordionSummary expandIcon={<ExpandMoreIcon />} aria-controls="compras-content" id="compras-header">
-              <Typography variant="h5">COMPRAS</Typography>
-            </AccordionSummary>
-            <AccordionDetails>
-              <Typography>
-                ¿Cómo compro en la Tienda Virtual Prowess?
-                <br />
-                ¿Se pueden realizar compras desde el extranjero?
-                <br />
-                ¿Puedo enviar mis compras a otras personas?
-              </Typography>
-            </AccordionDetails>
-          </Accordion>
-
-          <Accordion>
-            <AccordionSummary expandIcon={<ExpandMoreIcon />} aria-controls="costos-tiempos-entrega-content" id="costos-tiempos-entrega-header">
-              <Typography variant="h5">COSTOS Y TIEMPOS DE ENTREGA</Typography>
-            </AccordionSummary>
-            <AccordionDetails>
-              <Typography>
-                ¿En cuánto tiempo llegará mi pedido?
-                <br />
-                ¿Cuál es el costo de envío que aplica por tipo de producto?
-                <br />
-                ¿Cómo es calculado el valor de envío a domicilio de tus productos?
-              </Typography>
-            </AccordionDetails>
-          </Accordion>
-
-          <Accordion>
             <AccordionSummary expandIcon={<ExpandMoreIcon />} aria-controls="formas-pago-content" id="formas-pago-header">
               <Typography variant="h5">FORMAS DE PAGO</Typography>
             </AccordionSummary>
@@ -104,52 +63,6 @@ export const Jumbotron = () => {
                 ¿Cómo puedo cambiar mi contraseña?
                 <br />
                 ¿Cómo puedo recuperar mi contraseña?
-              </Typography>
-            </AccordionDetails>
-          </Accordion>
-
-          <Accordion>
-            <AccordionSummary expandIcon={<ExpandMoreIcon />} aria-controls="estado-pedido-content" id="estado-pedido-header">
-              <Typography variant="h5">ESTADO DE PEDIDO</Typography>
-            </AccordionSummary>
-            <AccordionDetails>
-              <Typography>
-                ¿Cómo consulto el estado de mi pedido?
-                <br />
-                ¿Cuáles son los estados de mi compra?
-              </Typography>
-            </AccordionDetails>
-          </Accordion>
-
-          <Accordion>
-            <AccordionSummary expandIcon={<ExpandMoreIcon />} aria-controls="retiro-tienda-content" id="retiro-tienda-header">
-              <Typography variant="h5">RETIRO EN TIENDA</Typography>
-            </AccordionSummary>
-            <AccordionDetails>
-              <Typography>
-                ¿Puedo retirar mi pedido en tienda?
-              </Typography>
-            </AccordionDetails>
-          </Accordion>
-
-          <Accordion>
-            <AccordionSummary expandIcon={<ExpandMoreIcon />} aria-controls="retiro-agencias-content" id="retiro-agencias-header">
-              <Typography variant="h5">RETIRO EN AGENCIAS AUTORIZADAS</Typography>
-            </AccordionSummary>
-            <AccordionDetails>
-              <Typography>
-                ¿Es posible retirar mi pedido en una agencia autorizada?
-              </Typography>
-            </AccordionDetails>
-          </Accordion>
-
-          <Accordion>
-            <AccordionSummary expandIcon={<ExpandMoreIcon />} aria-controls="cambios-devoluciones-content" id="cambios-devoluciones-header">
-              <Typography variant="h5">CAMBIOS Y DEVOLUCIONES</Typography>
-            </AccordionSummary>
-            <AccordionDetails>
-              <Typography>
-                ¿Cómo realizo cambios y devoluciones en la tienda virtual?
               </Typography>
             </AccordionDetails>
           </Accordion>
