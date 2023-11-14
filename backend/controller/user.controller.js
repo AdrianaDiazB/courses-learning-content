@@ -51,6 +51,7 @@ export const getUserList = async (req, res) => {
         courseid: 0,
       },
     });
+    console.log();
     return res.status(200).json(userList);
   } catch (error) {
     return res.status(400).json(error);
