@@ -35,19 +35,19 @@ export const Jumbotron = () => {
               <br />
               Sigue estos pasos:
                 <br />
-                1. Encuentra el Enlace de Registro: Visita nuestra página de inicio y busca el enlace de registro. Este suele estar ubicado en la esquina superior derecha bajo la sección "Crear cuenta".
+                <strong> 1. Enlace de Registro:</strong> Visita nuestra página de inicio y busca el enlace de registro. Este suele estar ubicado en la esquina superior derecha bajo la sección "Crear cuenta".
                 <br />
-                2. Completa la Información: Llena los campos obligatorios con tu información personal:
+                <strong> 2. Completa la Información:</strong> Llena los campos obligatorios con tu información personal:
                 <br />
-                - Nombre y Apellido: Ingresa tu nombre completo.
+                - <strong>Nombre y Apellido: </strong>Ingresa tu nombre completo.
                 <br />
-                - Nombre de Usuario: Elige un nombre de usuario único.
+                - <strong>Nombre de Usuario: </strong>Elige un nombre de usuario único.
                 <br />
-                - Correo Electrónico: Proporciona una dirección de correo electrónico válida.
+                - <strong>Correo Electrónico: </strong>Proporciona una dirección de correo electrónico válida.
                 <br />
-                - Cédula: Ingresa tu número de cédula.
+                - <strong>Cédula: </strong>Ingresa tu número de cédula.
                 <br />
-                - Contraseña Segura: Crea una contraseña segura siguiendo estas pautas...
+                - <strong>Contraseña Segura: </strong>Crea una contraseña segura siguiendo estas pautas...
                
                 <br />
                 ¡Bienvenido a Progress Cursos MOOC!
@@ -60,30 +60,44 @@ export const Jumbotron = () => {
 
           <Accordion>
             <AccordionSummary expandIcon={<ExpandMoreIcon />} aria-controls="formas-pago-content" id="formas-pago-header">
-              <Typography variant="h5">FORMAS DE PAGO</Typography>
+              <Typography variant="h5">¿Cuáles son las formas de pago en Prowess?</Typography>
             </AccordionSummary>
             <AccordionDetails>
               <Typography>
-                ¿Cuáles son las formas de pago en la Tienda Virtual?
+                 En Progress Cursos, simplificamos el proceso de pago para que puedas comenzar tus cursos MOOC de manera rápida y sencilla.Actualmente, aceptamos pagos mediante tarjeta de crédito como única opción. 
+                 
+                 Aquí tienes los pasos para realizar tu pago:
                 <br />
-                ¿Recibiré una factura con mi compra?
+                <strong>Tarjeta de Crédito:</strong> Durante el proceso de pago, selecciona la opción de "Tarjeta de Crédito". Ingresa los detalles de tu tarjeta, incluyendo el número, la fecha de vencimiento y el código de seguridad.
+                <br />
+                Te aseguramos que todas las transacciones con tarjeta de crédito se realizan de forma segura, utilizando protocolos de cifrado avanzados para proteger tu información personal.
+                <br />
+                Si tienes alguna pregunta específica sobre el proceso de pago con tarjeta de crédito o experimentas algún problema durante la transacción, no dudes en ponerte en contacto con nuestro equipo de soporte.
+                <br />
+                <strong>¡Esperamos que disfrutes de tus cursos MOOC en Progress Cursos</strong>!
               </Typography>
             </AccordionDetails>
           </Accordion>
 
           <Accordion>
             <AccordionSummary expandIcon={<ExpandMoreIcon />} aria-controls="seguridad-content" id="seguridad-header">
-              <Typography variant="h5">SEGURIDAD</Typography>
+              <Typography variant="h5">¿Cómo puedo cambiar mi contraseña?</Typography>
             </AccordionSummary>
             <AccordionDetails>
               <Typography>
-                ¿Es seguro comprar en la Tienda Virtual?
+              Cambiar tu contraseña en Progress Cursos MOOC es un proceso sencillo. Sigue estos pasos para actualizar tu contraseña:
                 <br />
-                ¿Cómo puedo bloquear mi cuenta de usuario?
+                <strong>1. Inicia Sesión:</strong> Accede a tu cuenta en Progress Cursos MOOC utilizando tu nombre de usuario y contraseña actual.
                 <br />
-                ¿Cómo puedo cambiar mi contraseña?
+                <strong>2. Accede a la Configuración de la Cuenta:</strong> Una vez que hayas iniciado sesión, busca la opción de "Configuración de la Cuenta" en tu panel de usuario. Este enlace generalmente se encuentra en la esquina superior derecha de la página.
                 <br />
-                ¿Cómo puedo recuperar mi contraseña?
+                <strong>3. Selecciona "Cambiar Contraseña":</strong> Dentro de la sección de configuración de la cuenta, busca la opción que indica "Cambiar Contraseña" o algo similar.
+                <br />
+                <strong> 4.Ingresa la Nueva Contraseña:</strong> Se te pedirá que ingreses tu contraseña actual para verificar tu identidad. Después, proporciona tu nueva contraseña. Recuerda seguir nuestras pautas de seguridad, que incluyen al menos una letra mayúscula, una letra minúscula, un carácter especial y un mínimo de 8 caracteres.
+                <br />
+                <strong>5. Confirma la Nueva Contraseña:</strong> Vuelve a ingresar la nueva contraseña para confirmar que esté escrita correctamente.
+                <br />
+                <strong>6. Guarda los Cambios:</strong> Finalmente, guarda los cambios para aplicar tu nueva contraseña.
               </Typography>
             </AccordionDetails>
           </Accordion>
