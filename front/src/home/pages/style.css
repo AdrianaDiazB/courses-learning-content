@@ -157,6 +157,63 @@ body {
   }
 
 }
+
+/* Registro exitoso container */
+.registro-exitoso-container {
+  text-align: center;
+  margin: 50px auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  max-width: 400px;
+  background-color: #fff;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+@media (min-width: 768px) {
+  .registro-exitoso-container {
+    max-width: none; /* Elimina la restricción de ancho en dispositivos de escritorio */
+    width: 80%; /* O ajusta el porcentaje según tus preferencias */
+    margin: 50px auto;
+  }
+}
+
+.checkmark-icon {
+  width: 100px; /* Aumenta el tamaño del icono */
+  height: 100px; /* Aumenta el tamaño del icono */
+  margin-bottom: 20px;
+}
+
+.titulo-registro-exitoso {
+  color: #333;
+  font-size: 32px; /* Aumenta el tamaño de la fuente del título */
+  margin-bottom: 15px; /* Aumenta el espacio entre el título y el texto */
+}
+
+.texto-registro-exitoso {
+  color: #555;
+  font-size: 18px; /* Aumenta el tamaño de la fuente del texto */
+  margin-bottom: 15px; /* Aumenta el espacio entre los párrafos */
+}
+
+.btn-home {
+  background-color: #4caf50;
+  color: white;
+  padding: 12px 20px; /* Aumenta el tamaño del botón */
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  text-decoration: none;
+  font-size: 18px; /* Aumenta el tamaño de la fuente del botón */
+  display: inline-block; /* Hace que el botón no ocupe todo el ancho */
+}
+
+.btn-home:hover {
+  background-color: #45a049;
+}
+
+
+
 /*
 .form-input {
   margin-bottom: 30px;
