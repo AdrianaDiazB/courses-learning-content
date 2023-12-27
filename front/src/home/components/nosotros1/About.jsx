@@ -7,7 +7,7 @@ export const About = () => {
 
   return (
     <div>
-        <Back title='Nuestra Institución'/>
+        <Back title='Sobre Nosotros'/>
         <AboutCard/>
     </div>
   )

@@ -17,14 +17,14 @@
   flex-direction: column;
   width: 100%;
   z-index: 1030;
-  background-color: #bfe0c7;
+  background-color: #dee2b8;
   font-size: large;
 }
 
 .bgnavbar2 {
   width: 100%;
   z-index: 1031;
-  background-color: #4d6066;
+  background-color: #baaa7c;
 }
 
 .navbar-collapse {

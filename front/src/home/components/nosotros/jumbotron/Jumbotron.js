@@ -11,22 +11,11 @@ export const Jumbotron = () => {
         <img className="image img-fluid" src="https://res.cloudinary.com/dena7lqj3/image/upload/v1673044536/modulomocc/nosotros/raya_uotn89.png" alt="" />
         <h1 className="display-6"> PROWESS EC</h1>
         <p>
-          Departamento de Ciencias Económicas, Administrativas y de Comercio –
-          DCEA es responsable de la gestión de la docencia, investigación y
-          vinculación en las siguientes áreas del conocimiento: Economía,
-          Mercadotecnia y Publicidad, Finanzas, Dirección/Gestión,
-          Administración, Hotelería, Turismo, Contabilidad, Auditoria y Comercio
+          Departamento de Ciencias Económicas,
           Exterior.
           <br />
           <br />
-          Es por consiguiente, la unidad organizacional clave para el
-          cumplimiento de la misión de la ESPE y el logro de los objetivos del
-          plan estratégico institucional. Dentro del portafolio del Departamento
-          de Ciencias Económicas, Administrativas y del Comercio se encuentran
-          las Carreras de Licenciatura en Administración de Empresas, Ingeniería
-          Comercial, Licenciatura en Contabilidad y Auditoría, Licenciatura en
-          Mercadotecnia y Publicidad, Licenciatura en Comercio Exterior y
-          Licenciatura en Turismo.
+          Es por consiguiente, 
         </p>
 
         <div class="accordion" id="accordionExample">

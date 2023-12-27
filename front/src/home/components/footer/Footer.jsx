@@ -10,9 +10,7 @@ function Footer() {
           <div className="sec aboutUs">
             <h2>ACERCA DE NOSOTROS</h2>
             <p>
-            Módulos cursos MOOC ofrece cursos en línea, abiertos y gratuitos a los emprendedores y 
-            usuarios en general, que tienen como objetivo compartir y difundir conocimiento a partir de los material
-            realizado por docentes especializado de la Universidad de las Fuerzas Armadas ESPE.
+            Somos una plataforma educativa en línea diseñada especialmente para estudiantes de séptimo nivel de educación básica. Nuestro objetivo es proporcionarte herramientas interactivas y recursos variados para mejorar tu aprendizaje en todas las materias del plan de estudios.
             </p>
             <ul className="sci">
               <li>
@@ -77,8 +75,8 @@ function Footer() {
             <h2>ENLACES ÚTILES</h2>
             <ul>
               <ButtonOptionMenu name="Acerca" href="" />
-              <ButtonOptionMenu name="FAQ" href="" />
-              <ButtonOptionMenu name="Privacidad" href="" />
+              
+             
               <ButtonOptionMenu name="Ayuda" href="" />
               <ButtonOptionMenu name="Términos y Condiciones" href="/terminos" />
             </ul>
@@ -94,14 +92,14 @@ function Footer() {
                     <ion-icon name="navigate-circle-sharp"></ion-icon>
                   </span>
                 }
-                name="Ing. Luis Enrique Simbaña Ph.D"
+                name="Grupo 6"
               />
               <li>
                 <span>
                   <ion-icon name="call-sharp"></ion-icon>
                 </span>
                 <p> WHATSAPP: <br></br>
-                  <a href="tel:098 160 2933">(Click aquí ) Para envíarnos un mensaje de WhatsApp +593 98 160 2933
+                  <a href="tel:0990292683">(Click aquí ) Para envíarnos un mensaje de WhatsApp +593 98 160 2933
                   </a>
                   <br />
                   <a href="tel:(02) 356 4427">(02) 356 4427</a>
@@ -112,12 +110,12 @@ function Footer() {
                   <ion-icon name="mail-sharp"></ion-icon>
                 </span>
                 <p> CORREO: <br></br>
-                  <a href="mailto:prowesscursosmooc@gmail.com">
-                  (Clik aquí ) Para envíarnos un mensaje de correo a prowesscursosmooc@gmail.com
+                  <a href="mailto:learningcontent@gmail.com">
+                  (Clik aquí ) Para envíarnos un mensaje de correo 
                   </a>
                   <br></br>
-                  <a href="mailto:lesimbania@espe.edu.ec">
-                  (Clik aquí ) Para envíarnos un mensaje de correo a lesimbania@espe.edu.ec
+                  <a href="mailto:aldiaz5@espe.edu.ec">
+                  (Clik aquí ) Para envíarnos un mensaje de correo 
                   </a>
                 </p>
               </li>
@@ -126,7 +124,7 @@ function Footer() {
         </div>
       </footer>
       <div className="copyrighText">
-        <p>Copyright 2023 Prowessec. Todos los derechos reservados</p>
+        <p>Copyright 2023. Todos los derechos reservados</p>
       </div>
     </>
   );

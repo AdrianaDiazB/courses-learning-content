@@ -1,6 +1,6 @@
-import primera from './img/1.png'
-import segunda from './img/2.png'
-import tercera from './img/3.png'
+import primera from './img/1.jpg'
+import segunda from './img/2.jpg'
+import tercera from './img/3.jpg'
 
 export default{
     "img1" : primera,

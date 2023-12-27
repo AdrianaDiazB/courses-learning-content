@@ -13,27 +13,11 @@ export const Navbar = () => {
           <NavLink to="/" className="navbar-brand ">
             <img
               className="logo"
-              src="https://res.cloudinary.com/dena7lqj3/image/upload/v1670968244/modulomocc/assets/logo.png"
+              src="https://res.cloudinary.com/dzcke9fzx/image/upload/v1702512428/ANALISIS/logo2_ixql9m.png"
               alt=""
             />
           </NavLink>
-          <NavLink
-            to="/"
-            className="navbar-brand d-flex justify-content-center align-items-center"
-          >
-            <img
-              width="112"
-              height="70"
-              src="https://res.cloudinary.com/dena7lqj3/image/upload/v1674077440/modulomocc/assets/Bandera_Ecuador_oy5pa9.svg"
-              alt=""
-            />
-            <img
-              width="108"
-              height="82"
-              src="https://res.cloudinary.com/dena7lqj3/image/upload/v1674077426/modulomocc/assets/Logo_ESPE_f1qbd6.png"
-              alt=""
-            />
-          </NavLink>
+          
         </div>
       </div>
       <nav className="navbar navbar-expand-lg navbar-light bgnavbar sticky-top ">
@@ -68,7 +52,7 @@ export const Navbar = () => {
                   to="/nosotros"
                   className="nav-link"
                 >
-                  Institución
+                  Sobre Nosotros
                   <div className="line"></div>
                 </NavLink>
               </li>
@@ -78,7 +62,7 @@ export const Navbar = () => {
                   to="/cursos/general"
                   className="nav-link"
                 >
-                  Cursos Generales
+                  Modulos Educativos
                   <div className="line"></div>
                 </NavLink>
               </li>
@@ -95,26 +79,10 @@ export const Navbar = () => {
                 </NavLink>
               </li>
               <li className="nav-item mb-1">
-                <NavLink
-                  style={{ color: " #4D6066" }}
-                  to="/cursos/personalizados"
-                  className="nav-link"
-                >
-                  Cursos Personalizados
-                  <div className="line"></div>
-                </NavLink>
+                
               </li>
               <li className="nav-item">
-                <a
-                  href="https://cursosmocc.prowessec.com"
-                  target="_blank"
-                  className="nav-link"
-                  rel="noreferrer"
-                  style={{ color: " #4D6066" }}
-                >
-                  Campus Virtual
-                  <div className="line"></div>
-                </a>
+                
               </li>
 
               <li className="nav-item dropdown ">
@@ -134,13 +102,6 @@ export const Navbar = () => {
                   className="dropdown-menu ml-2"
                   aria-labelledby="dropdownId"
                 >
-                  <NavLink
-                    style={{ color: " #4D6066" }}
-                    to="/ayudados"
-                    className="dropdown-item"
-                  >
-                    Pagos en linea
-                  </NavLink>
                   <NavLink
                     style={{ color: " #4D6066" }}
                     to="/contactos"

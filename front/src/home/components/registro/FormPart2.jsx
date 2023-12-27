@@ -74,8 +74,14 @@ const FormPart2 = (props) => {
       <SelectInput
         register={register}
         name={"course"}
-        options={courses}
-        title={"Cursos"}
+        //options={courses
+        options={[
+          { id: "Matematicas", name: "Matematicas" },
+          { id: "Lengua y Literatura", name: "Lengua y Literatura" },
+          { id: "Quimica", name: "Quimica" },
+          { id: "Estudios Sociales", name: "Estudios Sociales" },
+        ]}
+        title={"Módulos"}
         errors={errors}
       />
 
