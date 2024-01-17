@@ -47,6 +47,7 @@
     justify-content: space-between;
     align-items: center;
     margin-top: 0px;
+    font-size: 23px;
 }
 
 .left-paragraph, .right-paragraph {
@@ -81,6 +82,7 @@
 .containerMV{
     display: flex;
     justify-content: center;
+    
 }
 
 .container_MisionV {
@@ -117,7 +119,7 @@
 }
 
 .container_MisionV p {
-    font-size: 0.9rem;
+    font-size: 1.1rem;
     color: white; /* Texto en blanco para mayor contraste con el fondo de degradado negro */
     width: 80%;
     text-shadow: 0 0 8px rgba(61, 61, 61, 0.8);
@@ -125,6 +127,7 @@
 }
 .container_MisionV h3{
     justify-content: center;
+    font-size: 1.5rem;
 }
 
 /* Define la animación */

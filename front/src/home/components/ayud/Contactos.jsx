@@ -25,8 +25,9 @@ const Contactos = () => {
       onResetForm();
     }
   }
-  return (
+ /* return (
     <>
+    
       <div className="container-md">
         <h1 className="text-center mt-5 title-curso">Contacto </h1>
         <p className="text-center mb-5 descripcion-curso">Apartado ayuda</p>
@@ -206,7 +207,7 @@ const Contactos = () => {
       </div>
 
     </>
-  );
+  );*/
 
 
 

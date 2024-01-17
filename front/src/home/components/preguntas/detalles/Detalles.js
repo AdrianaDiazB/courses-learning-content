@@ -4,7 +4,7 @@ import React from "react";
 import raya from "../imgs/raya.png";
 
 export const Detalles = () => {
-  return (
+  /*return (
     <div className="container mt-5">
       <h2 className="display-5">Contactos</h2>
       <img className="image" src={raya} alt="" width="500" height="50" />
@@ -49,7 +49,7 @@ export const Detalles = () => {
         <p>+593 98 168 4393</p>
       </div>
     </div>
-  );
+  );*/
 };
 /**Modificado */
 export default Detalles;

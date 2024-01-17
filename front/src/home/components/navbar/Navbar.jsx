@@ -37,7 +37,7 @@ export const Navbar = () => {
             <ul className="navbar-nav my-2 gap-2 gap-xl-4 ">
               <li className="nav-item">
                 <NavLink
-                  style={{ color: "#4D6066" }}
+                  style={{ color: "#4D6066", fontSize:"25px" }}
                   to="/"
                   className="nav-link"
                   aria-current="page"
@@ -48,7 +48,7 @@ export const Navbar = () => {
               </li>
               <li className="nav-item mb-1">
                 <NavLink
-                  style={{ color: " #4D6066" }}
+                  style={{ color: " #4D6066", fontSize:"25px" }}
                   to="/nosotros"
                   className="nav-link"
                 >
@@ -58,7 +58,7 @@ export const Navbar = () => {
               </li>
               <li className="nav-item mb-1">
                 <NavLink
-                  style={{ color: " #4D6066" }}
+                  style={{ color: " #4D6066", fontSize:"25px" }}
                   to="/cursos/general"
                   className="nav-link"
                 >
@@ -68,7 +68,7 @@ export const Navbar = () => {
               </li>
               <li className="nav-item mb-1">
                 <NavLink
-                  style={{ color: " #4D6066" }}
+                  style={{ color: " #4D6066", fontSize:"25px" }}
                   to="/register"
                   className="nav-link"
                   target={"_blank"}
@@ -87,7 +87,7 @@ export const Navbar = () => {
 
               <li className="nav-item dropdown ">
                 <NavLink
-                  style={{ color: " #4D6066" }}
+                  style={{ color: " #4D6066", fontSize:"25px" }}
                   className="nav-link dropdown-toggle help_icon"
                   to="#"
                   id="dropdownId"

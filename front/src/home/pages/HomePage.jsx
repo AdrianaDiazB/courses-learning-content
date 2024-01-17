@@ -20,12 +20,13 @@ export const HomePage = () => {
           MODULOS EDUCATIVOS
         </h1>
         <Linea />
-        <div class="row gx-0 d-flex justify-content-center gx-3 mb-5">
+        <div class="row gx-0 d-flex justify-content-center gx-3 mb-5 text-black">
           <CursoGeneral
             title={"MATEMÁTICAS"}
             img={
               "https://res.cloudinary.com/dzcke9fzx/image/upload/v1702517752/ANALISIS/mate_cw0nfp.jpg"
             }
+           
             
           />
 

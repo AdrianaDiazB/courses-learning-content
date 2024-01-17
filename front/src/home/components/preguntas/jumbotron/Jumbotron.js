@@ -17,7 +17,7 @@ export const Jumbotron = () => {
     });
   }, []);
 
-  return (
+ /* return (
     <div className="jumbotron">
       <div className="container">
         <Typography variant="h3">Preguntas frecuentes</Typography>
@@ -104,7 +104,7 @@ export const Jumbotron = () => {
         </div>
       </div>
     </div>
-  );
+  );*/
 };
 
 export default Jumbotron;

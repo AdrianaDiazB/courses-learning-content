@@ -28,7 +28,7 @@ const CursosPage = () => {
   }, []);
 
   useEffect(() => {
-    settitulo(tipos === "general" ? "GENERALES" : "PERSONALIZADOS");
+    settitulo(tipos === "general" ? "EDUCATIVOS" : "EDUCATIVOS");
     _getCourses();
   }, [tipos, _getCourses]);
 
@@ -39,9 +39,9 @@ const CursosPage = () => {
   return (
     <>
       <div className="container-md container-cursos mb-5">
-        <h1 className="text-center mt-5 title-curso">CURSOS {titulo}</h1>
+        <h1 className="text-center mt-5 title-curso">MODULOS {titulo}</h1>
         <p className="text-center mb-5 descripcion-curso">
-          Cursos completamente gratuitos en modalidad virtual para emprendedores
+          Modulos completamente gratuitos en modalidad virtual para estudiantes
         </p>
         <ListCurso tipos={tipos} courses={courses} />
       </div>
