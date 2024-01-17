@@ -10,6 +10,7 @@ import { validarCedula } from "../helpers/getValidation";
 import ModalError from "../components/registro/ModalError";
 import Loader from "../components/registro/Loader";
 
+
 function RegistroPage() {
   const [page, setPage] = useState(1);
   const navigate = useNavigate();
@@ -67,6 +68,7 @@ function RegistroPage() {
 
   const onSubmit = async (data) => {
     setLoading(true);
+    navigate("/register/success");
     const response = await postUser(data);
 
     if (!response.success) {
@@ -75,13 +77,11 @@ function RegistroPage() {
       setWarnings(response.warnings);
       return;
     }
-
     await enrolUser(data);
   };
 
   const enrolUser = async (data) => {
     setLoading(true);
-    
     const user = await getUser(data.username);
 
     const enrolled = await postEnrol({
@@ -98,7 +98,6 @@ function RegistroPage() {
       return;
     }
 
-    navigate("/register/success");
   };
 
   return (

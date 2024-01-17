@@ -13,15 +13,9 @@
 // export default RegistroExitosoPage;
 
 import React from 'react';
-import { Link } from 'react-router-dom';
 import './style.css';
 
 const RegistroExitosoPage = () => {
-  const redirectToCampusVirtual = () => {
-    // Redirige a la página del Campus Virtual
-    window.location.href = 'https://cursosmocc.prowessec.com';
-  };
-
   return (
     <div className="registro-exitoso-container">
       <img
@@ -34,9 +28,7 @@ const RegistroExitosoPage = () => {
       <h1 className="titulo-registro-exitoso">¡Registro exitoso!</h1>
       <p className="texto-registro-exitoso">Gracias por registrarte en nuestro sitio.</p>
       <p className="texto-registro-exitoso">Por favor, confirma tu correo electrónico.</p>
-      <Link to="/">
-        <button className="btn-home" onClick={redirectToCampusVirtual}>Ahora puedes acceder al campus virtual!</button>
-      </Link>
+        <button className="btn-home">Ahora puedes acceder al campus virtual!</button>
     </div>
   );
 };
