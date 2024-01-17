@@ -44,11 +44,10 @@ const FormPart2 = (props) => {
         register={register}
         name={"age"}
         options={[
-          { id: "18", name: "Menos a 18" },
-          { id: "25", name: "18 a 25" },
-          { id: "35", name: "26 a 35" },
-          { id: "45", name: "36 a 45" },
-          { id: "100", name: "Mayor a 45" },
+          { id: "12", name: "Menos a 12" },
+          { id: "15", name: "12 a 15" },
+          { id: "25", name: "16 a 25" },
+          { id: "26", name: "Mayor a 26" },
         ]}
         title={"Edad"}
         errors={errors}
@@ -78,7 +77,7 @@ const FormPart2 = (props) => {
         options={[
           { id: "Matematicas", name: "Matematicas" },
           { id: "Lengua y Literatura", name: "Lengua y Literatura" },
-          { id: "Quimica", name: "Quimica" },
+          { id: "Ciencias Naturales", name: "Ciencias Naturales" },
           { id: "Estudios Sociales", name: "Estudios Sociales" },
         ]}
         title={"Módulos"}
