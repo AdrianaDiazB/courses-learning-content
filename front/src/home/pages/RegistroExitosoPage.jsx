@@ -27,7 +27,6 @@ const RegistroExitosoPage = () => {
       />
       <h1 className="titulo-registro-exitoso">¡Registro exitoso!</h1>
       <p className="texto-registro-exitoso">Gracias por registrarte en nuestro sitio.</p>
-      <p className="texto-registro-exitoso">Por favor, confirma tu correo electrónico.</p>
         <button className="btn-home">Ahora puedes acceder al campus virtual!</button>
     </div>
   );
