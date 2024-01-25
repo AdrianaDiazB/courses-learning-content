@@ -239,3 +239,30 @@ body {
   color: var(--cnegro);
 }
 */
+
+/* TerminosPage.css */
+
+.terminos-container {
+  margin: 20px;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+}
+
+.terminos-paragraph {
+  margin-bottom: 10px;
+}
+
+.terminos-highlight {
+  font-weight: bold;
+  color: #007bff; /* Puedes ajustar el color según tus preferencias */
+}
+
+.terminos-footer {
+  font-style: italic;
+  margin-top: 20px;
+}
+
+.terminos-signature {
+  margin-top: 10px;
+}
