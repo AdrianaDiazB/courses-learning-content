@@ -14,19 +14,11 @@ function Footer() {
             </p>
             <ul className="sci">
               <li>
-                <a
-                  href="https://prowessec.com/"
-                  rel="noreferrer"
-                  target="_blank"
-                >
-                  <span className="icon">
-                    <ion-icon name="globe-outline"></ion-icon>
-                  </span>
-                </a>
+              
               </li>
               <li>
                 <a
-                  href="https://www.facebook.com/prowess.ec"
+                  href="https://www.facebook.com/profile.php?id=61556107522948"
                   rel="noreferrer"
                   target="_blank"
                 >
@@ -36,19 +28,11 @@ function Footer() {
                 </a>
               </li>
               <li>
-                <a
-                  href="https://twitter.com/ProwessEc"
-                  rel="noreferrer"
-                  target="_blank"
-                >
-                  <span className="icon">
-                    <ion-icon name="logo-twitter"></ion-icon>
-                  </span>
-                </a>
+                
               </li>
               <li>
                 <a
-                  href="https://instagram.com/prowess_ec?igshid=YmMyMTA2M2Y="
+                  href="https://www.instagram.com/learningcontent1/"
                   rel="noreferrer"
                   target="_blank"
                 >
@@ -59,7 +43,7 @@ function Footer() {
               </li>
               <li>
                 <a
-                  href="https://www.tiktok.com/@totalprowess_ec?_t=8WfSUUREkkf&_r=1"
+                  href="https://www.tiktok.com/@learnincontent"
                   rel="noreferrer"
                   target="_blank"
                 >

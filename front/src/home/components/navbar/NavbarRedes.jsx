@@ -23,17 +23,11 @@ export const NavbarRedes = () => {
       <nav className="navbar navbar-expand-md navbar-light bgnavbar2 justify-content-end">
         <ul className="navbar-nav redesItems">
           <li className="nav-item">
-            <a
-              href="https://twitter.com/ProwessEc"
-              target={"_blank"}
-              className="nav-link py-0"
-              rel="noreferrer">
-              <TwitterIcon style={{ color: "white" }} />
-            </a>
+            
           </li>
           <li className="nav-item">
             <a
-              href="https://www.facebook.com/prowess.ec"
+              href="https://www.facebook.com/profile.php?id=61556107522948"
               target={"_blank"}
               className="nav-link py-0"
               rel="noreferrer">
@@ -42,7 +36,7 @@ export const NavbarRedes = () => {
           </li>
           <li className="nav-item ">
             <a
-              href="https://instagram.com/prowess_ec?igshid=YmMyMTA2M2Y="
+              href="https://www.instagram.com/learningcontent1/"
               target={"_blank"}
               className="nav-link py-0"
               rel="noreferrer">
@@ -51,7 +45,7 @@ export const NavbarRedes = () => {
           </li>
           <li className="nav-item">
             <a
-              href="https://www.tiktok.com/@totalprowess_ec?_t=8WfSUUREkkf&_r=1"
+              href="https://www.tiktok.com/@learnincontent"
               target={"_blank"}
               className="nav-link py-0"
               rel="noreferrer">
