@@ -9,8 +9,10 @@ import CursoPage from "../../home/pages/CursoPage";
 import AyudosP from "../../home/pages/AyudaPage";
 import PreguntasPage from "../../home/pages/PreguntasPage";
 import ContactoPage from "../../home/pages/ContactoPage";
+import TerminosPage from "../../home/pages/TerminosPage";
 
-const ClientRoutes = () => {
+
+function ClientRoutes() {
   return (
     <>
       <NavbarRedes />
@@ -23,10 +25,10 @@ const ClientRoutes = () => {
         <Route path="/ayudados" element={<AyudosP />} />
         <Route path="/preguntas" element={<PreguntasPage />} />
         <Route path="/contactos" element={<ContactoPage />} />
-        <Route path="/terminos"></Route>
+        <Route path="/terminos" element={<TerminosPage />} />
       </Routes>
     </>
   );
-};
+}
 
 export default ClientRoutes;
