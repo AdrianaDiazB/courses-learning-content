@@ -67,16 +67,17 @@ export const Navbar = () => {
                 </NavLink>
               </li>
               <li className="nav-item mb-1">
-                <NavLink
-                  style={{ color: " #4D6066", fontSize:"25px" }}
-                  to="/register"
-                  className="nav-link"
-                  target={"_blank"}
-                  onClick={clearLocalStorage}
-                >
-                  Inscripciones
-                  <div className="line"></div>
-                </NavLink>
+              <a
+                style={{ color: "#4D6066", fontSize: "25px" }}
+                href="https://learningcontent.xeted.com/login/signup.php"
+                className="nav-link"
+                target="_blank"
+                rel="noopener noreferrer"
+                onClick={clearLocalStorage}
+              >
+                Inscripciones
+                <div className="line"></div>
+              </a>
               </li>
               <li className="nav-item mb-1">
                 
