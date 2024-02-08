@@ -87,36 +87,21 @@ export const Navbar = () => {
               </li>
 
               <li className="nav-item dropdown ">
-                <NavLink
-                  style={{ color: " #4D6066", fontSize:"25px" }}
-                  className="nav-link dropdown-toggle help_icon"
-                  to="#"
-                  id="dropdownId"
-                  data-bs-toggle="dropdown"
-                  aria-haspopup="false"
-                  aria-expanded="false"
-                >
-                  Ayuda <span className="arrow-down"></span>
-                  <div className="line"></div>
-                </NavLink>
+              <a
+                style={{ color: "#4D6066", fontSize: "25px" }}
+                href="https://learningcontent.xeted.com/login/index.php"
+                className="nav-link"
+                target="_blank"
+                rel="noopener noreferrer"
+                onClick={clearLocalStorage}
+              >
+                Aula Virtual
+                <div className="line"></div>
+              </a>
                 <div
                   className="dropdown-menu ml-2"
                   aria-labelledby="dropdownId"
                 >
-                  <NavLink
-                    style={{ color: " #4D6066" }}
-                    to="/contactos"
-                    className="dropdown-item"
-                  >
-                    Contacto
-                  </NavLink>
-                  <NavLink
-                    style={{ color: " #4D6066" }}
-                    to="/preguntas"
-                    className="dropdown-item"
-                  >
-                    Preguntas Frecuentes
-                  </NavLink>
                 </div>
               </li>
             </ul>
