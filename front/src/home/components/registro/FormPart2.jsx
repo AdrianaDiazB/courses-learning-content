@@ -3,7 +3,9 @@ import RadioInput from "./RadioInput";
 import SelectInput from "./SelectInput";
 import { useEffect, useState } from "react";
 import { getCourses } from "../../../services/backend-api";
+
 const FormPart2 = (props) => {
+  /*
   const { cities, states, handlePrev, register, errors, getCities } = props;
   const [courses, setCourses] = useState([]);
 
@@ -139,7 +141,7 @@ const FormPart2 = (props) => {
         </div>
       </div>
     </>
-  );
+  );*/
 };
 
 export default FormPart2;

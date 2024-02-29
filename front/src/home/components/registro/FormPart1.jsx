@@ -14,11 +14,28 @@ const FormPart1 = (props) => {
     correctIdNumber,
   } = props;
 
+  const handleButtonClick = () => {
+    
+      handleSubmit(handleNext)(); // Ejecuta la función handleSubmit y handleNext
+      window.location.href = "https://learningcontent.xeted.com/login/signup.php"; // Redirige a la URL deseada
+    
+  };
+
+
   return (
     <>
       <p className="form-titulo">1/2 Regístrate</p>
 
-      
+
+      <Input
+        register={register}
+        type={"number"}
+        placeholder={"Celular"}
+        name={"phone1"}
+        errors={errors}
+        validation={{ required: "Este campo es requerido", minLength: 6 }}
+      />
+
       <Input
         register={register}
         type={"number"}
@@ -34,10 +51,11 @@ const FormPart1 = (props) => {
       
       {correctPassword || (
         <span className="mensajeError">
-          <p>Ingrese nuevament el número de cédula</p>
+          <p>Ingrese nuevamente el número de cédula</p>
         </span>
       )}
 
+      
       <SelectInput
         register={register}
         name={"course"}
@@ -86,7 +104,7 @@ const FormPart1 = (props) => {
         />
       </div>
       <div className="form-boton d-flex justify-content-end ">
-        <button type="button" onClick={handleSubmit(handleNext)}>
+      <button type="button" onClick={handleButtonClick}>
           Siguiente
         </button>
       </div>
