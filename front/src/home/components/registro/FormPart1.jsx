@@ -1,5 +1,6 @@
 import Input from "./Input";
 import SelectInput from "./SelectInput";
+import RadioInput from "./RadioInput";
 
 const FormPart1 = (props) => {
   const {
@@ -17,34 +18,7 @@ const FormPart1 = (props) => {
     <>
       <p className="form-titulo">1/2 Regístrate</p>
 
-      <Input
-        register={register}
-        type={"text"}
-        placeholder={"Nombres"}
-        name={"firstname"}
-        errors={errors}
-      />
-      <Input
-        register={register}
-        type={"text"}
-        placeholder={"Apellidos"}
-        name={"lastname"}
-        errors={errors}
-      />
-      <Input
-        register={register}
-        type={"text"}
-        placeholder={"Nombre de Usuario"}
-        name={"username"}
-        errors={errors}
-      />
-      <Input
-        register={register}
-        type={"email"}
-        placeholder={"Correo Electrónico"}
-        name={"email"}
-        errors={errors}
-      />
+      
       <Input
         register={register}
         type={"number"}
@@ -57,34 +31,60 @@ const FormPart1 = (props) => {
           <p>Número de cédula no válido</p>
         </span>
       )}
-      <Input
-        register={register}
-        type={"password"}
-        placeholder={"Contraseña"}
-        name={"password"}
-        errors={errors}
-      />
-      <Input
-        register={register}
-        type={"password"}
-        placeholder={"Repetir Contraseña"}
-        name={"password2"}
-        errors={errors}
-      />
+      
       {correctPassword || (
         <span className="mensajeError">
-          <p>Las Contraseñas no coinciden</p>
+          <p>Ingrese nuevament el número de cédula</p>
         </span>
       )}
 
       <SelectInput
         register={register}
-        name={"country"}
-        options={countries}
-        title={"Pais"}
-        getOptions={getStates}
+        name={"course"}
+        //options={courses
+        options={[
+          { id: "Matematicas", name: "Matematicas" },
+          { id: "Lengua y Literatura", name: "Lengua y Literatura" },
+          { id: "Ciencias Naturales", name: "Ciencias Naturales" },
+          { id: "Estudios Sociales", name: "Estudios Sociales" },
+        ]}
+        title={"Módulos"}
         errors={errors}
       />
+
+      <SelectInput
+        register={register}
+        name={"socialmedia"}
+        options={[
+          { id: "Facebook", name: "Facebook" },
+          { id: "Instagram", name: "Instagram" },
+          { id: "Anuncio", name: "Anuncio" },
+          { id: "Twitter", name: "Twitter" },
+          { id: "Volante", name: "Volante" },
+          { id: "Youtube", name: "Youtube" },
+        ]}
+        title={"¿Como se entero?"}
+        errors={errors}
+      />
+
+      <div className="d-flex gap-4 ps-4">
+        <RadioInput
+          type={"radio"}
+          name={"gender"}
+          value={"male"}
+          label={"Masculino"}
+          register={register}
+          errors={errors}
+        />
+        <RadioInput
+          type={"radio"}
+          name={"gender"}
+          value={"famale"}
+          label={"Femenino"}
+          register={register}
+          errors={errors}
+        />
+      </div>
       <div className="form-boton d-flex justify-content-end ">
         <button type="button" onClick={handleSubmit(handleNext)}>
           Siguiente

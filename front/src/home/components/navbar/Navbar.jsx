@@ -66,38 +66,38 @@ export const Navbar = () => {
                   <div className="line"></div>
                 </NavLink>
               </li>
+
               <li className="nav-item mb-1">
-              <a
-                style={{ color: "#4D6066", fontSize: "25px" }}
-                href="https://learningcontent.xeted.com/login/signup.php"
-                className="nav-link"
-                target="_blank"
-                rel="noopener noreferrer"
-                onClick={clearLocalStorage}
-              >
-                Inscripciones
-                <div className="line"></div>
-              </a>
+                <NavLink
+                  style={{ color: " #4D6066", fontSize:"25px"  }}
+                  to="/register"
+                  className="nav-link"
+                  target={"_blank"}
+                  onClick={clearLocalStorage}
+                >
+                  Inscripciones
+                  <div className="line"></div>
+                </NavLink>
               </li>
+              
+
               <li className="nav-item mb-1">
-                
               </li>
-              <li className="nav-item">
-                
+              <li className="nav-item"> 
               </li>
 
               <li className="nav-item dropdown ">
-              <a
-                style={{ color: "#4D6066", fontSize: "25px" }}
-                href="https://learningcontent.xeted.com/login/index.php"
-                className="nav-link"
-                target="_blank"
-                rel="noopener noreferrer"
-                onClick={clearLocalStorage}
-              >
-                Aula Virtual
-                <div className="line"></div>
-              </a>
+                <a
+                  style={{ color: "#4D6066", fontSize: "25px" }}
+                  href="https://learningcontent.xeted.com/login/index.php"
+                  className="nav-link"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  onClick={clearLocalStorage}
+                >
+                  Aula Virtual
+                  <div className="line"></div>
+                </a>
                 <div
                   className="dropdown-menu ml-2"
                   aria-labelledby="dropdownId"
